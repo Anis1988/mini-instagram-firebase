@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+}
+.app {
+  background: #fafafa;
+}
+.app__header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: white;
+  object-fit: contain;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 20px;
+}
+.app__headerImage {
+  width: 150px;
+  height: 90px;
+  margin-left: -40px;
+  margin-top: -18px;
+  object-fit: contain;
+}
+.app__signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app__signup Input {
+  padding: 17px;
+  width: 100%;
+}
+.app__signup Button {
+  margin-top: 20px;
+  width: 100%;
+}
+.app__signup button:hover {
+  background: rgba(76, 169, 247, 1);
+}
+.app__posts {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.app__postsRight {
+  margin-left: 20px;
+}
